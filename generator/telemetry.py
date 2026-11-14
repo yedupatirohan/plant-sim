@@ -64,10 +64,15 @@ def generate_baseline(master: dict, sensors: list[dict], seed: int,
         volume = tank_level[tid] / 100.0 * t["capacity_m3"]
         rate = np.diff(volume, prepend=volume[0]) / dt_h  # m3/h, 0 at the first step
         fac_storage[t["facility_id"]] = fac_storage.get(t["facility_id"], 0) + rate
+
+    # Only valves that have a flow sensor share the measured outflow.
+    sensed_valves = {s["component_id"] for s in sensors
+                     if s["component_type"] == "VALVE" and s["measurement"] == "FLOW"}
     fac_position_sum: dict[str, float] = {}
     for v in valves.values():
-        fid_v = v["facility_id"]
-        fac_position_sum[fid_v] = fac_position_sum.get(fid_v, 0.0) + v["default_position_pct"]
+        if v["valve_id"] in sensed_valves:
+            fid_v = v["facility_id"]
+            fac_position_sum[fid_v] = fac_position_sum.get(fid_v, 0.0) + v["default_position_pct"]
 
     series = {}
     for s in sensors:

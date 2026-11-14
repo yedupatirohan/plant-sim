@@ -57,10 +57,17 @@ def generate_baseline(master: dict, sensors: list[dict], seed: int,
                       t["min_level_pct"], t["max_level_pct"])
         tank_level[tid] = pct
 
-    # Valve flow: facility flow share scaled by valve position (state at the mode level)
-    nvalves = {}
+    # Valve flow = plant outflow = pump inflow - tank storage change, shared by valve position.
+    # This makes the baseline obey conservation of flow (tolerance covers sensor noise only).
+    fac_storage: dict[str, np.ndarray] = {}
+    for tid, t in tanks.items():
+        volume = tank_level[tid] / 100.0 * t["capacity_m3"]
+        rate = np.diff(volume, prepend=volume[0]) / dt_h  # m3/h, 0 at the first step
+        fac_storage[t["facility_id"]] = fac_storage.get(t["facility_id"], 0) + rate
+    fac_position_sum: dict[str, float] = {}
     for v in valves.values():
-        nvalves[v["facility_id"]] = nvalves.get(v["facility_id"], 0) + 1
+        fid_v = v["facility_id"]
+        fac_position_sum[fid_v] = fac_position_sum.get(fid_v, 0.0) + v["default_position_pct"]
 
     series = {}
     for s in sensors:
@@ -74,10 +81,11 @@ def generate_baseline(master: dict, sensors: list[dict], seed: int,
         elif s["component_type"] == "TANK" and meas == "LEVEL":
             clean = tank_level[cid]
             noise = rng.normal(0, 0.1, steps)
-        else:  # valve flow
+        else:  # valve flow: this valve's share of the plant outflow
             v = valves[cid]
-            share = fac_flow.get(v["facility_id"], np.zeros(steps)) / nvalves[v["facility_id"]]
-            clean = share * v["default_position_pct"] / 100.0
+            fid_v = v["facility_id"]
+            outflow = fac_flow.get(fid_v, np.zeros(steps)) - fac_storage.get(fid_v, 0)
+            clean = outflow * v["default_position_pct"] / fac_position_sum[fid_v]
             noise = rng.normal(0, 0.5, steps)
         series[s["sensor_id"]] = np.round(clean + noise, 3)
 

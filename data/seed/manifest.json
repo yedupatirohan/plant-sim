@@ -38,7 +38,7 @@
     "seed_sql": {
       "path": "seed.sql",
       "rows": 100509,
-      "sha256": "95fc472392045f7c8087612b5afb278e2d7b8c477fc7b4850f5cc5d823dfd45c"
+      "sha256": "0800fdae08119ee6d93e36fde07abec7d5e1b70564517e8bf04ac6187ccb1478"
     },
     "sensor": {
       "path": "sensor.csv",
@@ -58,7 +58,7 @@
     "telemetry": {
       "path": "telemetry.csv",
       "rows": 100000,
-      "sha256": "7cc6925df24520c9090cbded3c19f311b9b92b38ab6ccbb3204868f4bfb0bddd"
+      "sha256": "76e06cf8aeab45b998328fb96402319884e0bae980209532180e9591da7a281f"
     },
     "valve": {
       "path": "valve.csv",

@@ -1,0 +1,1082 @@
+[
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-001",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-002",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-003",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-004",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-005",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-006",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-007",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-008",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-009",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-010",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-011",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-012",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-013",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-014",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-015",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-016",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-017",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-018",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-019",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-001",
+    "valve_id": "VALVE-020",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-001",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-002",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-003",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-004",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-005",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-006",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-007",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-008",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-009",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-010",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-011",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-012",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-013",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-014",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-015",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-016",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-017",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-018",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-019",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-002",
+    "valve_id": "VALVE-020",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-001",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-002",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-003",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-004",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-005",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-006",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-007",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-008",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-009",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-010",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-011",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-012",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-013",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-014",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-015",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-016",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-017",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-018",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-019",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-003",
+    "valve_id": "VALVE-020",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-021",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-022",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-023",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-024",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-025",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-026",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-027",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-028",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-029",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-030",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-031",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-032",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-033",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-034",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-035",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-036",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-037",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-038",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-039",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-004",
+    "valve_id": "VALVE-040",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-021",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-022",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-023",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-024",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-025",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-026",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-027",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-028",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-029",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-030",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-031",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-032",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-033",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-034",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-035",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-036",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-037",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-038",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-039",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-005",
+    "valve_id": "VALVE-040",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-021",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-022",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-023",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-024",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-025",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-026",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-027",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-028",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-029",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-030",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-031",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-032",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-033",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-034",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-035",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-036",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-037",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-038",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-039",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-006",
+    "valve_id": "VALVE-040",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-041",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-042",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-043",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-044",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-045",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-046",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-047",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-048",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-049",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-050",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-051",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-052",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-053",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-054",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-055",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-056",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-057",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-058",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-059",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-007",
+    "valve_id": "VALVE-060",
+    "state": "THROTTLED",
+    "position_pct": 60.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-041",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-042",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-043",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-044",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-045",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-046",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-047",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-048",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-049",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-050",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-051",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-052",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-053",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-054",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-055",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-056",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-057",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-058",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-059",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-008",
+    "valve_id": "VALVE-060",
+    "state": "CLOSED",
+    "position_pct": 0.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-041",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-042",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-043",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-044",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-045",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-046",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-047",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-048",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-049",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-050",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-051",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-052",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-053",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-054",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-055",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-056",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-057",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-058",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-059",
+    "state": "OPEN",
+    "position_pct": 100.0
+  },
+  {
+    "mode_id": "MODE-009",
+    "valve_id": "VALVE-060",
+    "state": "OPEN",
+    "position_pct": 100.0
+  }
+]

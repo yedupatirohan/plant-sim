@@ -1,0 +1,222 @@
+[
+  {
+    "pump_id": "PUMP-001",
+    "facility_id": "FAC-001",
+    "name": "Pump 1",
+    "rated_flow_m3h": 81.6,
+    "shutoff_head_m": 74.7,
+    "curve_coeff_k": 0.0050929,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-002",
+    "facility_id": "FAC-001",
+    "name": "Pump 2",
+    "rated_flow_m3h": 182.2,
+    "shutoff_head_m": 52.3,
+    "curve_coeff_k": 0.00068703,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-003",
+    "facility_id": "FAC-001",
+    "name": "Pump 3",
+    "rated_flow_m3h": 114.2,
+    "shutoff_head_m": 57.7,
+    "curve_coeff_k": 0.00195364,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-004",
+    "facility_id": "FAC-001",
+    "name": "Pump 4",
+    "rated_flow_m3h": 194.2,
+    "shutoff_head_m": 41.0,
+    "curve_coeff_k": 0.00034452,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-005",
+    "facility_id": "FAC-001",
+    "name": "Pump 5",
+    "rated_flow_m3h": 142.2,
+    "shutoff_head_m": 42.8,
+    "curve_coeff_k": 0.00094618,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-006",
+    "facility_id": "FAC-001",
+    "name": "Pump 6",
+    "rated_flow_m3h": 145.9,
+    "shutoff_head_m": 41.0,
+    "curve_coeff_k": 0.00060013,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-007",
+    "facility_id": "FAC-001",
+    "name": "Pump 7",
+    "rated_flow_m3h": 116.5,
+    "shutoff_head_m": 65.8,
+    "curve_coeff_k": 0.00192077,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-008",
+    "facility_id": "FAC-002",
+    "name": "Pump 8",
+    "rated_flow_m3h": 108.8,
+    "shutoff_head_m": 58.6,
+    "curve_coeff_k": 0.00208947,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-009",
+    "facility_id": "FAC-002",
+    "name": "Pump 9",
+    "rated_flow_m3h": 177.1,
+    "shutoff_head_m": 60.7,
+    "curve_coeff_k": 0.00069644,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-010",
+    "facility_id": "FAC-002",
+    "name": "Pump 10",
+    "rated_flow_m3h": 154.8,
+    "shutoff_head_m": 54.1,
+    "curve_coeff_k": 0.0011226,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-011",
+    "facility_id": "FAC-002",
+    "name": "Pump 11",
+    "rated_flow_m3h": 198.2,
+    "shutoff_head_m": 60.2,
+    "curve_coeff_k": 0.00067233,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-012",
+    "facility_id": "FAC-002",
+    "name": "Pump 12",
+    "rated_flow_m3h": 112.8,
+    "shutoff_head_m": 42.6,
+    "curve_coeff_k": 0.00141567,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-013",
+    "facility_id": "FAC-002",
+    "name": "Pump 13",
+    "rated_flow_m3h": 223.2,
+    "shutoff_head_m": 64.0,
+    "curve_coeff_k": 0.00059826,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-014",
+    "facility_id": "FAC-002",
+    "name": "Pump 14",
+    "rated_flow_m3h": 164.6,
+    "shutoff_head_m": 41.0,
+    "curve_coeff_k": 0.00046341,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-015",
+    "facility_id": "FAC-003",
+    "name": "Pump 15",
+    "rated_flow_m3h": 112.8,
+    "shutoff_head_m": 55.1,
+    "curve_coeff_k": 0.0015472,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-016",
+    "facility_id": "FAC-003",
+    "name": "Pump 16",
+    "rated_flow_m3h": 215.4,
+    "shutoff_head_m": 73.1,
+    "curve_coeff_k": 0.00053234,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-017",
+    "facility_id": "FAC-003",
+    "name": "Pump 17",
+    "rated_flow_m3h": 171.0,
+    "shutoff_head_m": 45.4,
+    "curve_coeff_k": 0.00051218,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-018",
+    "facility_id": "FAC-003",
+    "name": "Pump 18",
+    "rated_flow_m3h": 125.8,
+    "shutoff_head_m": 65.4,
+    "curve_coeff_k": 0.00185449,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-019",
+    "facility_id": "FAC-003",
+    "name": "Pump 19",
+    "rated_flow_m3h": 158.8,
+    "shutoff_head_m": 67.2,
+    "curve_coeff_k": 0.00102327,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  },
+  {
+    "pump_id": "PUMP-020",
+    "facility_id": "FAC-003",
+    "name": "Pump 20",
+    "rated_flow_m3h": 195.0,
+    "shutoff_head_m": 40.3,
+    "curve_coeff_k": 0.00052556,
+    "status": "RUNNING",
+    "effective_from": "2024-01-01",
+    "effective_to": null
+  }
+]

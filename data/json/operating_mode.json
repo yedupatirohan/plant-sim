@@ -1,0 +1,74 @@
+[
+  {
+    "mode_id": "MODE-001",
+    "facility_id": "FAC-001",
+    "name": "NORMAL",
+    "pump_speed_pct": 80.0,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": "2026-01-01T08:00:00"
+  },
+  {
+    "mode_id": "MODE-002",
+    "facility_id": "FAC-001",
+    "name": "LOW_DEMAND",
+    "pump_speed_pct": 55.0,
+    "effective_from": "2026-01-01T08:00:00",
+    "effective_to": "2026-01-01T16:00:00"
+  },
+  {
+    "mode_id": "MODE-003",
+    "facility_id": "FAC-001",
+    "name": "PEAK_DEMAND",
+    "pump_speed_pct": 100.0,
+    "effective_from": "2026-01-01T16:00:00",
+    "effective_to": "2026-01-02T00:00:00"
+  },
+  {
+    "mode_id": "MODE-004",
+    "facility_id": "FAC-002",
+    "name": "NORMAL",
+    "pump_speed_pct": 80.0,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": "2026-01-01T08:00:00"
+  },
+  {
+    "mode_id": "MODE-005",
+    "facility_id": "FAC-002",
+    "name": "LOW_DEMAND",
+    "pump_speed_pct": 55.0,
+    "effective_from": "2026-01-01T08:00:00",
+    "effective_to": "2026-01-01T16:00:00"
+  },
+  {
+    "mode_id": "MODE-006",
+    "facility_id": "FAC-002",
+    "name": "PEAK_DEMAND",
+    "pump_speed_pct": 100.0,
+    "effective_from": "2026-01-01T16:00:00",
+    "effective_to": "2026-01-02T00:00:00"
+  },
+  {
+    "mode_id": "MODE-007",
+    "facility_id": "FAC-003",
+    "name": "NORMAL",
+    "pump_speed_pct": 80.0,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": "2026-01-01T08:00:00"
+  },
+  {
+    "mode_id": "MODE-008",
+    "facility_id": "FAC-003",
+    "name": "LOW_DEMAND",
+    "pump_speed_pct": 55.0,
+    "effective_from": "2026-01-01T08:00:00",
+    "effective_to": "2026-01-01T16:00:00"
+  },
+  {
+    "mode_id": "MODE-009",
+    "facility_id": "FAC-003",
+    "name": "PEAK_DEMAND",
+    "pump_speed_pct": 100.0,
+    "effective_from": "2026-01-01T16:00:00",
+    "effective_to": "2026-01-02T00:00:00"
+  }
+]

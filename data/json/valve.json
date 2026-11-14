@@ -1,0 +1,422 @@
+[
+  {
+    "valve_id": "VALVE-001",
+    "facility_id": "FAC-001",
+    "name": "Valve 1",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-002",
+    "facility_id": "FAC-001",
+    "name": "Valve 2",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-003",
+    "facility_id": "FAC-001",
+    "name": "Valve 3",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-004",
+    "facility_id": "FAC-001",
+    "name": "Valve 4",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-005",
+    "facility_id": "FAC-001",
+    "name": "Valve 5",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-006",
+    "facility_id": "FAC-001",
+    "name": "Valve 6",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-007",
+    "facility_id": "FAC-001",
+    "name": "Valve 7",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-008",
+    "facility_id": "FAC-001",
+    "name": "Valve 8",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-009",
+    "facility_id": "FAC-001",
+    "name": "Valve 9",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-010",
+    "facility_id": "FAC-001",
+    "name": "Valve 10",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-011",
+    "facility_id": "FAC-001",
+    "name": "Valve 11",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-012",
+    "facility_id": "FAC-001",
+    "name": "Valve 12",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-013",
+    "facility_id": "FAC-001",
+    "name": "Valve 13",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-014",
+    "facility_id": "FAC-001",
+    "name": "Valve 14",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-015",
+    "facility_id": "FAC-001",
+    "name": "Valve 15",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-016",
+    "facility_id": "FAC-001",
+    "name": "Valve 16",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-017",
+    "facility_id": "FAC-001",
+    "name": "Valve 17",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-018",
+    "facility_id": "FAC-001",
+    "name": "Valve 18",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-019",
+    "facility_id": "FAC-001",
+    "name": "Valve 19",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-020",
+    "facility_id": "FAC-001",
+    "name": "Valve 20",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-021",
+    "facility_id": "FAC-002",
+    "name": "Valve 21",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-022",
+    "facility_id": "FAC-002",
+    "name": "Valve 22",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-023",
+    "facility_id": "FAC-002",
+    "name": "Valve 23",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-024",
+    "facility_id": "FAC-002",
+    "name": "Valve 24",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-025",
+    "facility_id": "FAC-002",
+    "name": "Valve 25",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-026",
+    "facility_id": "FAC-002",
+    "name": "Valve 26",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-027",
+    "facility_id": "FAC-002",
+    "name": "Valve 27",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-028",
+    "facility_id": "FAC-002",
+    "name": "Valve 28",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-029",
+    "facility_id": "FAC-002",
+    "name": "Valve 29",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-030",
+    "facility_id": "FAC-002",
+    "name": "Valve 30",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-031",
+    "facility_id": "FAC-002",
+    "name": "Valve 31",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-032",
+    "facility_id": "FAC-002",
+    "name": "Valve 32",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-033",
+    "facility_id": "FAC-002",
+    "name": "Valve 33",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-034",
+    "facility_id": "FAC-002",
+    "name": "Valve 34",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-035",
+    "facility_id": "FAC-002",
+    "name": "Valve 35",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-036",
+    "facility_id": "FAC-002",
+    "name": "Valve 36",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-037",
+    "facility_id": "FAC-002",
+    "name": "Valve 37",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-038",
+    "facility_id": "FAC-002",
+    "name": "Valve 38",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-039",
+    "facility_id": "FAC-002",
+    "name": "Valve 39",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-040",
+    "facility_id": "FAC-002",
+    "name": "Valve 40",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-041",
+    "facility_id": "FAC-003",
+    "name": "Valve 41",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-042",
+    "facility_id": "FAC-003",
+    "name": "Valve 42",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-043",
+    "facility_id": "FAC-003",
+    "name": "Valve 43",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-044",
+    "facility_id": "FAC-003",
+    "name": "Valve 44",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-045",
+    "facility_id": "FAC-003",
+    "name": "Valve 45",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-046",
+    "facility_id": "FAC-003",
+    "name": "Valve 46",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-047",
+    "facility_id": "FAC-003",
+    "name": "Valve 47",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-048",
+    "facility_id": "FAC-003",
+    "name": "Valve 48",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-049",
+    "facility_id": "FAC-003",
+    "name": "Valve 49",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-050",
+    "facility_id": "FAC-003",
+    "name": "Valve 50",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-051",
+    "facility_id": "FAC-003",
+    "name": "Valve 51",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-052",
+    "facility_id": "FAC-003",
+    "name": "Valve 52",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-053",
+    "facility_id": "FAC-003",
+    "name": "Valve 53",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-054",
+    "facility_id": "FAC-003",
+    "name": "Valve 54",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-055",
+    "facility_id": "FAC-003",
+    "name": "Valve 55",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  },
+  {
+    "valve_id": "VALVE-056",
+    "facility_id": "FAC-003",
+    "name": "Valve 56",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-057",
+    "facility_id": "FAC-003",
+    "name": "Valve 57",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-058",
+    "facility_id": "FAC-003",
+    "name": "Valve 58",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-059",
+    "facility_id": "FAC-003",
+    "name": "Valve 59",
+    "default_state": "OPEN",
+    "default_position_pct": 100.0
+  },
+  {
+    "valve_id": "VALVE-060",
+    "facility_id": "FAC-003",
+    "name": "Valve 60",
+    "default_state": "THROTTLED",
+    "default_position_pct": 60.0
+  }
+]

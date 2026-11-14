@@ -82,6 +82,8 @@ python -m generator.build_dataset --seed 20261022 --out data/seed
 This writes 13 files: one CSV per table, `seed.sql` (100,509 INSERT rows), ground truth (CSV and JSON, in
 `data/ground_truth/`), `staging_edge_cases.json` and `manifest.json`.
 
+JSON copies of the nine data tables (for example `data/json/pump.json`) are written by `python -m generator.export_json`. They are derived from the CSV files and are not part of the manifest.
+
 | Item | Count |
 |------|-------|
 | Facilities / pumps / tanks / valves | 3 / 20 / 30 / 60 |

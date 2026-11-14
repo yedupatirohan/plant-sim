@@ -1,0 +1,20 @@
+[
+  {
+    "facility_id": "FAC-001",
+    "name": "Plant A",
+    "status": "ACTIVE",
+    "commissioned_on": "2015-01-01"
+  },
+  {
+    "facility_id": "FAC-002",
+    "name": "Plant B",
+    "status": "ACTIVE",
+    "commissioned_on": "2016-01-01"
+  },
+  {
+    "facility_id": "FAC-003",
+    "name": "Plant C",
+    "status": "ACTIVE",
+    "commissioned_on": "2017-01-01"
+  }
+]

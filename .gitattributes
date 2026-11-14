@@ -1,0 +1,4 @@
+data/** text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.sql text eol=lf

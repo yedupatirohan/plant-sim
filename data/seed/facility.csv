@@ -1,0 +1,4 @@
+facility_id,name,status,commissioned_on
+FAC-001,Plant A,ACTIVE,2015-01-01
+FAC-002,Plant B,ACTIVE,2016-01-01
+FAC-003,Plant C,ACTIVE,2017-01-01

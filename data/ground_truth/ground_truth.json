@@ -1,0 +1,132 @@
+[
+  {
+    "scenario_id": "SCN-001",
+    "issue_type": "LEAK",
+    "component_id": "PUMP-003",
+    "sensor_ids": "SNS-035;SNS-036",
+    "start_ts": "2026-01-01T10:19:00",
+    "end_ts": "2026-01-01T11:18:00",
+    "expected_alarm_type": "LEAK",
+    "rule_applied": "flow -25% and pressure -15% together"
+  },
+  {
+    "scenario_id": "SCN-002",
+    "issue_type": "LEAK",
+    "component_id": "PUMP-016",
+    "sensor_ids": "SNS-061;SNS-062",
+    "start_ts": "2026-01-01T04:53:00",
+    "end_ts": "2026-01-01T05:52:00",
+    "expected_alarm_type": "LEAK",
+    "rule_applied": "flow -25% and pressure -15% together"
+  },
+  {
+    "scenario_id": "SCN-003",
+    "issue_type": "BLOCKAGE",
+    "component_id": "PUMP-008",
+    "sensor_ids": "SNS-045;SNS-046",
+    "start_ts": "2026-01-01T11:16:00",
+    "end_ts": "2026-01-01T12:15:00",
+    "expected_alarm_type": "BLOCKAGE",
+    "rule_applied": "flow -40% while pressure +20%"
+  },
+  {
+    "scenario_id": "SCN-004",
+    "issue_type": "BLOCKAGE",
+    "component_id": "PUMP-013",
+    "sensor_ids": "SNS-055;SNS-056",
+    "start_ts": "2026-01-01T04:37:00",
+    "end_ts": "2026-01-01T05:36:00",
+    "expected_alarm_type": "BLOCKAGE",
+    "rule_applied": "flow -40% while pressure +20%"
+  },
+  {
+    "scenario_id": "SCN-005",
+    "issue_type": "PUMP_DEGRADATION",
+    "component_id": "PUMP-011",
+    "sensor_ids": "SNS-051;SNS-052",
+    "start_ts": "2026-01-01T05:36:00",
+    "end_ts": "2026-01-01T06:35:00",
+    "expected_alarm_type": "PUMP_DEGRADATION",
+    "rule_applied": "flow and pressure ramp down to -30%"
+  },
+  {
+    "scenario_id": "SCN-006",
+    "issue_type": "PUMP_DEGRADATION",
+    "component_id": "PUMP-017",
+    "sensor_ids": "SNS-063;SNS-064",
+    "start_ts": "2026-01-01T06:47:00",
+    "end_ts": "2026-01-01T07:46:00",
+    "expected_alarm_type": "PUMP_DEGRADATION",
+    "rule_applied": "flow and pressure ramp down to -30%"
+  },
+  {
+    "scenario_id": "SCN-007",
+    "issue_type": "SENSOR_FAULT",
+    "component_id": "PUMP-001",
+    "sensor_ids": "SNS-031",
+    "start_ts": "2026-01-01T13:42:00",
+    "end_ts": "2026-01-01T14:41:00",
+    "expected_alarm_type": "SENSOR_FAULT",
+    "rule_applied": "flow sensor stuck; pressure sensor unaffected"
+  },
+  {
+    "scenario_id": "SCN-008",
+    "issue_type": "SENSOR_FAULT",
+    "component_id": "PUMP-002",
+    "sensor_ids": "SNS-033",
+    "start_ts": "2026-01-01T11:33:00",
+    "end_ts": "2026-01-01T12:32:00",
+    "expected_alarm_type": "SENSOR_FAULT",
+    "rule_applied": "flow sensor stuck; pressure sensor unaffected"
+  },
+  {
+    "scenario_id": "EDGE-001",
+    "issue_type": "PIPE_MISSING_NODE",
+    "component_id": "PIPE-901",
+    "sensor_ids": "",
+    "start_ts": "",
+    "end_ts": "",
+    "expected_alarm_type": "",
+    "rule_applied": "pipe endpoint VALVE-999 does not exist"
+  },
+  {
+    "scenario_id": "EDGE-002",
+    "issue_type": "TANK_LEVEL_EXCEEDS_CAPACITY",
+    "component_id": "TANK-001",
+    "sensor_ids": "",
+    "start_ts": "",
+    "end_ts": "",
+    "expected_alarm_type": "OVERFLOW",
+    "rule_applied": "level 112.5% > 100%"
+  },
+  {
+    "scenario_id": "EDGE-003",
+    "issue_type": "FLOW_CONSERVATION_VIOLATED",
+    "component_id": "FAC-001",
+    "sensor_ids": "",
+    "start_ts": "",
+    "end_ts": "",
+    "expected_alarm_type": "MASS_BALANCE",
+    "rule_applied": "|in - out - storage| = 115 > tolerance 10"
+  },
+  {
+    "scenario_id": "EDGE-004",
+    "issue_type": "SIMULATION_MISSING_INPUT",
+    "component_id": "SIM-2026-900001",
+    "sensor_ids": "",
+    "start_ts": "",
+    "end_ts": "",
+    "expected_alarm_type": "",
+    "rule_applied": "mode_id is null"
+  },
+  {
+    "scenario_id": "EDGE-005",
+    "issue_type": "SENSOR_FAULT_MISLABELLED",
+    "component_id": "SNS-031",
+    "sensor_ids": "",
+    "start_ts": "",
+    "end_ts": "",
+    "expected_alarm_type": "SENSOR_FAULT",
+    "rule_applied": "only one sensor affected, so it is a sensor fault, not a process fault"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "flow_balance": [
+    {
+      "facility_id": "FAC-001",
+      "inflow_m3h": 500.0,
+      "outflow_m3h": 380.0,
+      "storage_change_m3h": 5.0,
+      "tolerance_m3h": 10.0,
+      "ts_utc": "2026-01-01T00:00:00"
+    }
+  ],
+  "pipes": [
+    {
+      "diameter_mm": 150.0,
+      "facility_id": "FAC-001",
+      "from_node_id": "TANK-001",
+      "length_m": 50.0,
+      "pipe_id": "PIPE-901",
+      "to_node_id": "VALVE-999"
+    }
+  ],
+  "sensor_fault_labels": [
+    {
+      "reason": "single sensor deviates, neighbours normal",
+      "sensor_id": "SNS-031",
+      "stored_label": "PROCESS_FAULT",
+      "ts_utc": "2026-01-01T00:00:00"
+    }
+  ],
+  "simulation_runs": [
+    {
+      "assumptions_json": "{}",
+      "mode_id": null,
+      "result_json": "{\"flow\": 100}",
+      "seed": 20261022,
+      "simulation_id": "SIM-2026-900001",
+      "status": "COMPLETED"
+    }
+  ],
+  "tank_readings": [
+    {
+      "capacity_pct_limit": 100.0,
+      "sensor_id": "SNS-001",
+      "ts_utc": "2026-01-01T00:00:00",
+      "value": 112.5
+    }
+  ]
+}

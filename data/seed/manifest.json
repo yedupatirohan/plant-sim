@@ -1,0 +1,72 @@
+{
+  "files": {
+    "facility": {
+      "path": "facility.csv",
+      "rows": 3,
+      "sha256": "4d95784c7612352c24aa1e48b663e17593fb2ad7442da816957dee36bfe1dad6"
+    },
+    "ground_truth_csv": {
+      "path": "ground_truth.csv",
+      "rows": 13,
+      "sha256": "6977f9640be1e1b825bdb998ac2611bf7da179f50cd58e750e1f1ab0cf701e2f"
+    },
+    "ground_truth_json": {
+      "path": "ground_truth.json",
+      "rows": 13,
+      "sha256": "6b4b4d3cbb7ba586a907a95f49ab10d3a9dae48210c1628d56e606087a0d4bbd"
+    },
+    "operating_mode": {
+      "path": "operating_mode.csv",
+      "rows": 9,
+      "sha256": "1d46a5ad051f0a8349aa938cea6757bfc540b3be30317930507ca68a413779bb"
+    },
+    "operating_mode_valve_state": {
+      "path": "operating_mode_valve_state.csv",
+      "rows": 180,
+      "sha256": "1d8b15f10a5b217710731d774aed3536e20e0e6899b56dabf0741573ad4473cd"
+    },
+    "pipe": {
+      "path": "pipe.csv",
+      "rows": 107,
+      "sha256": "ac60b84bedc70e95b863814368964957ee981249403eda2692273d0dcaea67ec"
+    },
+    "pump": {
+      "path": "pump.csv",
+      "rows": 20,
+      "sha256": "0bd2a3c4a00e2f5790d2390f803e17347d1474ed87f87e31b2c84656f24148ca"
+    },
+    "seed_sql": {
+      "path": "seed.sql",
+      "rows": 100509,
+      "sha256": "4fbf2e08f0302207fbc16f6a92a748bcfb0030455af220d0a6a8cf1f68849e49"
+    },
+    "sensor": {
+      "path": "sensor.csv",
+      "rows": 100,
+      "sha256": "67810ac836a9b7e2876001f1df12288aa0455d4aa47b47447ce081a4351a86ed"
+    },
+    "staging_edge_cases": {
+      "path": "staging_edge_cases.json",
+      "rows": 5,
+      "sha256": "d76534e921ec69cd0c0f0b7631c7ff65c42a5c4e3683f8b9b21e6c3a1993961d"
+    },
+    "tank": {
+      "path": "tank.csv",
+      "rows": 30,
+      "sha256": "aa474c722dc12d8efb38f47093ae964e7e6caefc09688acec553be05bbe6be15"
+    },
+    "telemetry": {
+      "path": "telemetry.csv",
+      "rows": 100000,
+      "sha256": "e15ffa1b52a770d399a5457f37a75bb5388617b0673aa5ca3e16167ee5a57854"
+    },
+    "valve": {
+      "path": "valve.csv",
+      "rows": 60,
+      "sha256": "638b3623c32c99bb20705d1b563c58ea8cdbb296ed0ede060f0b10c0d2f13e1f"
+    }
+  },
+  "seed": 20261022,
+  "sensors": 100,
+  "steps": 1000
+}

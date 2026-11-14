@@ -1,0 +1,53 @@
+{
+  "all_passed": true,
+  "baseline_checks": {
+    "foreign_keys": {
+      "issues": 0
+    },
+    "id_format_and_uniqueness": {
+      "issues": 0
+    },
+    "pipe_endpoints": {
+      "issues": 0
+    }
+  },
+  "edge_cases": {
+    "EDGE-001": {
+      "check": "pipe_missing_node",
+      "detected": true,
+      "issues_found": 1
+    },
+    "EDGE-002": {
+      "check": "tank_over_capacity",
+      "detected": true,
+      "issues_found": 1
+    },
+    "EDGE-003": {
+      "check": "flow_conservation",
+      "detected": true,
+      "issues_found": 1
+    },
+    "EDGE-004": {
+      "check": "simulation_missing_input",
+      "detected": true,
+      "issues_found": 1
+    },
+    "EDGE-005": {
+      "check": "fault_mislabelled",
+      "detected": true,
+      "issues_found": 1
+    }
+  },
+  "ground_truth_leak_scan": {
+    "files_scanned": 11,
+    "leaks": []
+  },
+  "row_counts": {
+    "facilities": 3,
+    "pipes": 107,
+    "pumps": 20,
+    "tanks": 30,
+    "valves": 60
+  },
+  "seed": 20261022
+}

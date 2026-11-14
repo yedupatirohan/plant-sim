@@ -53,11 +53,14 @@ def generate_master(seed: int, scale: dict | None = None) -> dict:
         for _ in range(pumps_per[f]):
             pump_n += 1
             rated = float(round(rng.uniform(80, 250), 1))
+            shutoff = float(round(rng.uniform(40, 80), 1))
+            # Head lost at rated flow is 30-50% of shutoff head, so pressure stays positive.
+            drop_share = rng.uniform(0.3, 0.5)
             p = {
                 "pump_id": _pid("PUMP", pump_n), "facility_id": fid, "name": f"Pump {pump_n}",
                 "rated_flow_m3h": rated,
-                "shutoff_head_m": float(round(rng.uniform(40, 80), 1)),
-                "curve_coeff_k": float(round(rng.uniform(0.0005, 0.003), 5)),
+                "shutoff_head_m": shutoff,
+                "curve_coeff_k": float(round(shutoff * drop_share / rated ** 2, 8)),
                 "status": "RUNNING", "effective_from": "2024-01-01", "effective_to": None,
             }
             pumps.append(p)

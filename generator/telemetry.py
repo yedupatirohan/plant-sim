@@ -7,10 +7,12 @@ HEAD_TO_KPA = 9.81  # 1 m of water head is about 9.81 kPa
 MODE_SPEED = {0: 80.0, 1: 55.0, 2: 100.0}  # NORMAL, LOW_DEMAND, PEAK_DEMAND
 
 
-def _speed_schedule(steps: int) -> np.ndarray:
-    """Fixed demand cycle: thirds of the run are NORMAL, LOW, PEAK (rule, not random)."""
-    idx = np.minimum((np.arange(steps) * 3) // max(steps, 1), 2)
-    return np.array([MODE_SPEED[i] for i in idx])
+def _speed_schedule(steps: int, step_minutes: int = 1) -> np.ndarray:
+    """Pump speed follows the operating-mode table: 8-hour shifts
+    NORMAL (0-8h), LOW_DEMAND (8-16h), PEAK_DEMAND (16h+). A rule, not random."""
+    minutes = np.arange(steps) * step_minutes
+    idx = np.minimum(minutes // 480, 2)
+    return np.array([MODE_SPEED[int(i)] for i in idx])
 
 
 def generate_baseline(master: dict, sensors: list[dict], seed: int,
@@ -19,7 +21,7 @@ def generate_baseline(master: dict, sensors: list[dict], seed: int,
     """Return {'timestamps': [...], 'series': {sensor_id: np.ndarray}, 'truth': {...}}."""
     start = start or datetime(2026, 1, 1)
     rng = np.random.default_rng(seed + 1)  # separate stream from master data
-    speed = _speed_schedule(steps) / 100.0
+    speed = _speed_schedule(steps, step_minutes) / 100.0
 
     pumps = {p["pump_id"]: p for p in master["pumps"]}
     tanks = {t["tank_id"]: t for t in master["tanks"]}

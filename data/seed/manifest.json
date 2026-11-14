@@ -33,12 +33,12 @@
     "pump": {
       "path": "pump.csv",
       "rows": 20,
-      "sha256": "0bd2a3c4a00e2f5790d2390f803e17347d1474ed87f87e31b2c84656f24148ca"
+      "sha256": "246dde87bde57398b60a362c88c6ca4866bb81d361ddc80907cdf9767457e486"
     },
     "seed_sql": {
       "path": "seed.sql",
       "rows": 100509,
-      "sha256": "4fbf2e08f0302207fbc16f6a92a748bcfb0030455af220d0a6a8cf1f68849e49"
+      "sha256": "95fc472392045f7c8087612b5afb278e2d7b8c477fc7b4850f5cc5d823dfd45c"
     },
     "sensor": {
       "path": "sensor.csv",
@@ -58,7 +58,7 @@
     "telemetry": {
       "path": "telemetry.csv",
       "rows": 100000,
-      "sha256": "e15ffa1b52a770d399a5457f37a75bb5388617b0673aa5ca3e16167ee5a57854"
+      "sha256": "7cc6925df24520c9090cbded3c19f311b9b92b38ab6ccbb3204868f4bfb0bddd"
     },
     "valve": {
       "path": "valve.csv",

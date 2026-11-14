@@ -210,4 +210,22 @@ unit tests; they were cut for time.
 - Detection thresholds were tuned on the same seed that is measured (see above).
 - The balance check lags at mode changes (08:00 and 16:00) and can flag 1-minute noise blips. A planned fix is
   to require 3 windows in a row.
-- The balance check also flags
+- The balance check also flags injected pump faults.
+- Only 20 + 10 + 0 valves have flow sensors (100 sensors in total, to reach 100,000 points), so outflow is shared
+  only across sensed valves. A facility with no sensed valves returns `NOT_ASSESSABLE`.
+- Bugs found and fixed while building: (1) telemetry speed changes did not match the operating mode times, so the
+  generator now uses 8-hour shifts; (2) 6 of 20 pumps had negative head at rated flow, so the curve constant is now
+  computed from a 30-50% head drop; (3) baseline valve flows did not conserve flow, so valve flow is now pump inflow
+  minus tank storage change, shared by valve position.
+- Not done: frontend unit tests, browser end-to-end tests, PostgreSQL, machine learning.
+
+## AI usage log
+
+Claude (Anthropic) was used as a mentor, in small verified phases, to design the architecture; write the generator,
+services, repositories, routes, schemas, frontend and tests; diagnose failures from real pytest and data output; and
+plan the remaining work. Problems found this way include the generator and balance bugs above, a stray character in a
+route file, a test name clash where `app` meant both the FastAPI app and the package, a stylesheet that was not saved,
+the EDGE-002 live-detection finding, and a wrong file count in a validation test.
+
+I ran every command, pasted the real output, and reviewed each result. All test counts in this README come from
+my own pytest runs.
